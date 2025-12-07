@@ -31,7 +31,7 @@ export default function ProfileContent({ friend }: ProfileContentProps) {
 
         {/* Marquee - positioned at bottom, overlaying the image */}
         <div className="absolute bottom-[5%] left-0 right-0 overflow-hidden py-4 md:py-6">
-          <div className="flex whitespace-nowrap animate-marquee">
+          <div className="flex whitespace-nowrap animate-marquee" style={{ animationDuration: '5s' }}>
             <span className="text-7xl md:text-7xl lg:text-8xl font-bold tracking-tighter mx-4 text-red-500 drop-shadow-lg">
               {marqueeText}
             </span>
