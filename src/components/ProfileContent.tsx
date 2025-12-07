@@ -23,7 +23,7 @@ export default function ProfileContent({ friend }: ProfileContentProps) {
           alt={friend.name}
           fill
           priority
-          className="object-cover object-[10%_center] md:object-center"
+          className="object-cover object-[15%_center] md:object-center"
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
