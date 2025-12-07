@@ -17,24 +17,25 @@ export default function ProfileContent({ friend }: ProfileContentProps) {
   return (
     <div className="min-h-screen bg-black">
       {/* Hero Section - Full screen on mobile, 16:9 on desktop */}
-      <section className="relative w-full h-screen md:h-auto md:aspect-[16/9]">
-        <Image
-          src={friend.images.profileHero}
-          alt={friend.name}
-          fill
-          priority
-          className="object-cover object-[15%_center] md:object-center"
-          sizes="100vw"
-        />
+      <section className="relative w-full h-[65vh] md:h-auto md:aspect-[16/9]">
+      <Image
+        src={friend.images.profileHero}
+        alt={friend.name}
+        fill
+        priority
+        // You might want to center the object on mobile if you reduce height
+        className="object-cover object-[15%_center] md:object-center" 
+        sizes="100vw"
+      />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
 
         {/* Marquee - positioned at bottom, overlaying the image */}
-        <div className="absolute bottom-0 left-0 right-0 overflow-hidden py-4 md:py-6">
+        <div className="absolute bottom-[5%] left-0 right-0 overflow-hidden py-4 md:py-6">
           <div className="flex whitespace-nowrap animate-marquee">
-            <span className="text-8xl md:text-7xl lg:text-8xl font-bold tracking-tighter mx-4 text-red-500 drop-shadow-lg">
+            <span className="text-7xl md:text-7xl lg:text-8xl font-bold tracking-tighter mx-4 text-red-500 drop-shadow-lg">
               {marqueeText}
             </span>
-            <span className="text-8xl md:text-7xl lg:text-8xl font-bold tracking-tighter mx-4 text-red-500 drop-shadow-lg">
+            <span className="text-7xl md:text-7xl lg:text-8xl font-bold tracking-tighter mx-4 text-red-500 drop-shadow-lg">
               {marqueeText}
             </span>
           </div>
