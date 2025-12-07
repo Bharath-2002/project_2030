@@ -1,0 +1,99 @@
+{
+  "siteMeta": {
+    "logo": "2030",
+    "contactEmail": "2030@gmail.com",
+    "aboutText": "We are 2030. A collective of creators pushing the boundaries of digital expression. Born from shared visions and midnight conversations, we craft experiences that blur the line between art and technology. Our work speaks to the future while honoring the raw, unfiltered spirit of creative rebellion."
+  },
+  "friends": [
+    {
+      "id": "1",
+      "name": "Enish",
+      "slug": "enish",
+      "images": {
+        "homeCard": "/images/p1-card.png",
+        "profileHero": "/images/p1-hero.png",
+        "profileSquare": "/images/p1-square.png"
+      },
+      "bio": {
+        "title": "Civil Engineer & Budding Actor",
+        "description": "Enish builds structures by day and worlds by night. A civil engineer grounded in precision, he channels the same discipline into acting—crafting characters with depth, grit, and quiet charisma. His journey stands at the intersection of architecture and artistry.",
+        "instagramUrl": "https://www.instagram.com/enish_m?igsh=aWplcXRucG1qY2Ix"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Badhri",
+      "slug": "badhri",
+      "images": {
+        "homeCard": "/images/p2-card.png",
+        "profileHero": "/images/p2-hero.png",
+        "profileSquare": "/images/p2-square.png"
+      },
+      "bio": {
+        "title": "Gemologist & Entrepreneur",
+        "description": "Badhri sees stories locked inside stones. As a gemologist and jewelry entrepreneur, he shapes raw minerals into timeless expressions of identity. His work blends science, craftsmanship, and intuition—proving that true brilliance is both discovered and designed.",
+        "instagramUrl": "https://www.instagram.com/badhri.sb?igsh=aWdjMHdhNHpqZnVy"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Bharath",
+      "slug": "bharath",
+      "images": {
+        "homeCard": "/images/p3-card.png",
+        "profileHero": "/images/p3-hero.png",
+        "profileSquare": "/images/p3-square.png"
+      },
+      "bio": {
+        "title": "Developer & Artist",
+        "description": "Bharath writes code with the same soul he pours into his art. A startup developer with an artist’s eye, he thrives where structure meets imagination. Whether sketching ideas or building systems, he turns complexity into something beautifully human.",
+        "instagramUrl": "https://www.instagram.com/__bharath_26_?igsh=MWt4bzJlMGFhd3N4NA=="
+      }
+    },
+    {
+      "id": "4",
+      "name": "Kavimani",
+      "slug": "kavimani",
+      "images": {
+        "homeCard": "/images/p4-card.png",
+        "profileHero": "/images/p4-hero.png",
+        "profileSquare": "/images/p4-square.png"
+      },
+      "bio": {
+        "title": "Software Developer",
+        "description": "Quiet, precise, and endlessly curious—Kavimani brings clarity to complex problems. As a developer at Tech Mahindra, he shapes digital systems that are as clean as they are dependable. His approach: simple solutions, deeply thought.",
+        "instagramUrl": "https://www.instagram.com/kvie.__?igsh=ZTN1dG14b3JoYnh3"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Dhyanesh",
+      "slug": "dhyanesh",
+      "images": {
+        "homeCard": "/images/p5-card.png",
+        "profileHero": "/images/p5-hero.png",
+        "profileSquare": "/images/p5-square.png"
+      },
+      "bio": {
+        "title": "Developer at Amazon",
+        "description": "Dhyanesh operates at scale—building tools and systems that touch millions. At Amazon, he thrives in the space where efficiency meets innovation. Calm under pressure and sharp in logic, he turns complex engineering into seamless experience.",
+        "instagramUrl": "https://www.instagram.com/_dax07._?igsh=M3B3ajFxb2I1dHp5"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Pranav",
+      "slug": "pranav",
+      "images": {
+        "homeCard": "/images/p6-card.png",
+        "profileHero": "/images/p6-hero.png",
+        "profileSquare": "/images/p6-square.png"
+      },
+      "bio": {
+        "title": "UI/UX Developer",
+        "description": "Pranav designs experiences that feel like second nature. A UI/UX developer with a minimalist mind and a storyteller’s instinct, he shapes interfaces that disappear and interactions that stay. His philosophy: good design should feel inevitable.",
+        "instagramUrl": "https://www.instagram.com/_magesh_pranav_?igsh=d25kcGUyYmFjZmhw"
+      }
+    }
+  ]
+}

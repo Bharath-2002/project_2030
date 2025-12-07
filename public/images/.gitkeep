@@ -1,0 +1,8 @@
+# Placeholder for images directory
+# Add the following images for each person (1-6):
+# - p{n}-card.png (320x480 - vertical card for home page)
+# - p{n}-hero.png (1920x1080 - 16:9 hero image for profile)
+# - p{n}-square.png (800x800 - 1:1 square image for profile)
+#
+# IMPORTANT: Ensure subjects are positioned on the LEFT side of images
+# as the design uses object-position: left for proper cropping on mobile.
